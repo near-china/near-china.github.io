@@ -1,11 +1,11 @@
 const siteConfig = {
-  title: 'NEAR Documentation',
+  title: 'NEAR中文文档',
   disableHeaderTitle: true,
   tagline: 'Documentation for NEAR Protocol',
-  url: 'https://docs.near.org',
-  baseUrl: '/',
-  projectName: 'near-docs',
-  organizationName: 'nearprotocol',
+  url: 'https://docs.near.org.cn/',
+  baseUrl: 'https://docs.near.org.cn/',
+  projectName: 'docs',
+  organizationName: 'near-china',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -19,7 +19,7 @@ const siteConfig = {
     { doc: "validator/staking-overview", label: "Stake" },
     { doc: "roles/integrator/exchange-integration", label: "Integrate" },
     {
-      href: "https://github.com/near/docs/issues",
+      href: "https://github.com/near-china/near-china.github.io/issues",
       label: "GitHub",
       external: true,
     },
@@ -28,7 +28,7 @@ const siteConfig = {
   algolia: {
     apiKey: '058929d1d423f0f46d3278a102d58bfd',
     indexName: 'near',
-    placeholder: 'Search the Docs...',
+    placeholder: '搜索文档...',
   },
 
   /* path to images for header/footer */
@@ -169,7 +169,7 @@ const siteConfig = {
   // Allow collapsible categories in the sidenav
   docsSideNavCollapsible: false,
 
-  editUrl: "https://github.com/near/docs/tree/master/docs/",
+  editUrl: "https://github.com/near-china/near-china.github.io/tree/master/docs/",
   // No .html extensions for paths.
   cleanUrl: true,
 

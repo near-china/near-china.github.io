@@ -19,27 +19,27 @@ sidebar_label: 开始
 
 NEAR平台上的开发分为两个类别：
 
-- **[应用程序](/docs/develop/front-end/introduction)** _(前端)_
-- **[智能合约](/docs/develop/contracts/overview)** _(后端)_
+- **[应用程序](/docs/develop/front-end/introduction)**_(前端)_
+- **[智能合约](/docs/develop/contracts/overview)**_(后端)_
 
 ---
 
 ## NEAR 101
 
-**[ [讲义](https://bit.ly/near-101) ]** 为刚创建区块链应用程序的Web开发人员而设计._( 90分钟)_  
+**[ [讲义](https://bit.ly/near-101) ]** 为刚创建区块链应用程序的Web开发人员而设计._(90分钟)_
 另外,如果您NEAR或区块链很陌生的话,请先参阅["NEAR入门"](/docs/concepts/new-to-near).
 
 ## NEAR 102
 
-**[ [讲义](https://bit.ly/near-102) ]** 为计划开始使用NEAR的以太坊开发人员而设计._( 60分钟)_
+**[ [讲义](https://bit.ly/near-102) ]** 为计划开始使用NEAR的以太坊开发人员而设计._(60分钟)_
 
-> 警告:查看讲义需科学上网
+> 查看讲义需科学上网
 
 ---
 
 ## `create-near-app`
 
-使用[`create-near-app`](/docs/develop/basics/getting-started/#create-near-app),您可以在五分钟内启动全栈的"Hello World"应用程序!  
+使用[`create-near-app`](/docs/develop/basics/getting-started/#create-near-app),您可以在五分钟内启动全栈的"Hello World"应用程序!
 在终端中运行以下命令 _(需要[Node.js](https://nodejs.org/zh-cn/))_:
 
 ```bash

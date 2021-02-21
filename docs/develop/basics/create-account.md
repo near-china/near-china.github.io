@@ -1,141 +1,142 @@
 ---
 id: create-account
-title: Creating a NEAR Account
-sidebar_label: Create Account
+title: 创建NEAR账户
+sidebar_label: 创建账户
 ---
 
-The easiest way to create an account on NEAR is with [NEAR Wallet](https://wallet.near.org/). NEAR has several [development networks](/docs/concepts/networks) operating independently of each other with their own accountIDs. Below we have guides for creating account for two of these networks:
+在NEAR上创建帐户的最简单方法是使用[NEAR Wallet](https://wallet.near.org/). 
+NEAR拥有多个[开发网络](/docs/concepts/networks),它们各自使用自己的账户ID彼此独立运行.
+以下是在这两个网络中创建帐户的指南：
 
-* [`testnet`](/docs/develop/basics/create-account#creating-a-testnet-account)
-* [`mainnet`](/docs/develop/basics/create-account#creating-a-mainnet-account)  
+* [`testnet`](/docs/develop/basics/create-account#creating-a-testnet-account)_(测试网)_
+* [`mainnet`](/docs/develop/basics/create-account#creating-a-mainnet-account)_(主网)_
 
 ---
 
-## Creating a `testnet` account
+## 创建一个 `testnet`_(测试网)_账户
 
-The following guide with walk you through `testnet` account creation using [NEAR Wallet](https://wallet.testnet.near.org/).
+以下指南将逐步指导您使用[NEAR Wallet](https://wallet.testnet.near.org/)创建`testnet`_(测试网)_帐户.
 
-### Reserve Account ID
+### 预留账户ID
 
-> * Navigate to https://wallet.testnet.near.org and click on "Create Account".
+> * 访问 https://wallet.testnet.near.org 并单击 "Create Account".
 
 ![mainnet wallet landing](/docs/assets/create-account/mainnet-wallet-landing.jpg)
 
-> * Next, enter your desired account name.
-  
+> * 接下来,输入您喜欢的账户名称.
+
 ![mainnet create account](/docs/assets/create-account/testnet-create-account.jpg)
 
 ---
 
-### Secure your account
+### 保存您的账户
 
-> * Choose your account recovery method. "Recovery Phrase" or [Ledger](https://www.ledger.com/) is recommended as the most secure method.
+> * 选择您的帐户恢复方法,建议使用“助记词"或[Ledger](https://www.ledger.com/)作为最安全的方法.
 
-#### Seed Phrase Account Recovery
+#### 使用助记词恢复账户
 
-> * When selecting a recovery phrase / [seed phrase](https://en.bitcoin.it/wiki/Seed_phrase) it is **extremely  important** to write down your words **IN ORDER** and keep them in a safe place! We will not have a backup and will not be able to help you recover your account without it.
+> * 当选择[助记词](https://en.bitcoin.it/wiki/Seed_phrase)方式恢复账户时候,**请务必将其按顺序保存在一个安全的地方!**如果没有助记词,我们也没有备份,并无法帮助您恢复帐户.
 
 ![recovery method selection](/docs/assets/create-account/security-method.jpg)
 
 ![setup seed phrase](/docs/assets/create-account/seed-phrase.jpg)
 
-#### E-mail / Phone Number Account Recovery
+#### 电子邮箱/手机号恢复恢复账户
 
-> * When choosing e-mail or text, a **ONE TIME** recovery link will be sent to you that will have a recovery seed phrase embedded in the URL.
->
-> * **DO NOT DELETE THIS MESSAGE!** We are unable to resend this link to you. If you loose access to this it will result in the loss of your account unless you have another recovery method enabled.
+> * 选择电子邮件或文本时,将向您发送**一次性**恢复链接,该链接的URL中包含助记词.
+> * **不要删除此消息!**我们无法重新发送此链接给您.如果您无法访问此帐户,除非启用了另一种恢复方法,否则将导致帐户丢失.
 
 ![e-mail recovery](/docs/assets/create-account/email-text-recovery.jpg)
 
 ---
 
-### Success!
+### 成功!
 
-> You just created a `testnet` account and received 200 Ⓝ! Upon recovery method confirmation you should be directed to your account dashboard similar to the one below:
+> 您刚刚创建了一个`testnet`_(测试网)_帐户,并收到200Ⓝ!恢复方法确认后,您将被重定向到帐户仪表盘,类似于下图：
 
 ![testnet success](/docs/assets/create-account/testnet-success.jpg)
 
-> * Here you can view your total balance, available balance, and minimum balance needed for on-chain storage costs. Also, you can view and rotate your [Access Keys](/docs/concepts/account#access-keys) by enabling _(add)_ or disabling _(delete)_ them.
+> * 在这里,您可以查看总余额,可用余额以及链上存储成本所需的最低余额.另外,您可以通过启用*(添加)*或禁用*(删除)*它们来查看和控制[访问密钥](https://docs.near.org.cn/docs/concepts/account#access-keys).
 
 ---
 
-## Creating a `mainnet` account
+## 创建`mainnet`_(主网)_账户
 
-Creating an account on `mainnet` is _almost_ identical to `testnet` but will require initial funding for the account. Here is a guide to `mainnet` account creation.
+创建一个`mainnet`_(主网)_帐户与`testnet`_(测试网)_<u>几乎</u>相同,但需要在账户中充值初始资金.以下是在`mainnet`_(主网)_创建帐户的指南.
 
-### Reserve Account ID
+### 预留账户ID
 
-> * Navigate to https://wallet.near.org and click on "Create Account".
+> * 访问 https://wallet.near.org 并单击"Create Account".
 
 ![mainnet wallet landing](/docs/assets/create-account/mainnet-wallet-landing.jpg)
 
-> * Next, enter your desired account name.
-  
+> * 接下来,输入您喜欢的账户名称.
+
 ![mainnet create account](/docs/assets/create-account/mainnet-create-account.jpg)
 
 ---
 
-### Secure your account
+### 保存您的账户
 
-> * Choose your account recovery method. "Recovery Phrase" or [Ledger](https://www.ledger.com/) is recommended as the most secure method.
+> * 选择您的帐户恢复方法,建议使用“助记词"或[Ledger](https://www.ledger.com/)作为最安全的方法.
 
-#### Seed Phrase Account Recovery
+#### 使用助记词恢复账户
 
-> * When selecting a recovery phrase / [seed phrase](https://en.bitcoin.it/wiki/Seed_phrase) it is **extremely  important** to write down your words **IN ORDER** and keep them in a safe place! We will not have a backup and will not be able to help you recover your account without it.
+> * 当选择[助记词](https://en.bitcoin.it/wiki/Seed_phrase)方式恢复账户时候,**请务必将其按顺序保存在一个安全的地方!**我们并没有备份,如果没有助记词,将无法帮助您恢复帐户.
 
 ![recovery method selection](/docs/assets/create-account/security-method.jpg)
 
 ![setup seed phrase](/docs/assets/create-account/seed-phrase.jpg)
 
-#### E-mail / Phone Number Account Recovery
+#### 电子邮箱/手机号恢复恢复账户
 
-> * When choosing e-mail or text, a **ONE TIME** recovery link will be sent to you that will have a recovery seed phrase embedded in the URL.
->
-> * **DO NOT DELETE THIS MESSAGE!** We are unable to resend this link to you. If you loose access to this it will result in the loss of your account unless you have another recovery method enabled.
+> * 选择电子邮件或文本时,将向您发送**一次性**恢复链接,该链接的URL中包含助记词.
+>* **不要删除此消息!**我们无法重新发送此链接给您.如果您无法访问此帐户,除非启用了另一种恢复方法,否则将导致帐户丢失.
 
 ![e-mail recovery](/docs/assets/create-account/email-text-recovery.jpg)
 
 ---
 
-### Fund Your Account
+### 账户充值
 
-> * An initial funding of 1.1 Ⓝ will be required to create the account and pay for a small amount of initial storage. You will receive a temporary funding account address similar to the one below.
+> * 创建帐户并支付少量初始存储将需要1.1Ⓝ的初始资金.您将收到一个与以下地址类似的临时充值帐户地址.
 
 ![fund your account](/docs/assets/create-account/fund-your-account.jpg)
 
-> * Copy this funding account address and **OPEN A NEW TAB** to fund the account. It is important to leave this page open while funding the account creation. If it accidentally gets closed, you can reconstruct the link by following this format: **wallet.near.org/fund-create-account/YOUR_ACCOUNT.near/FUNDING_ACCOUNT_ADDRESS**
+> * 复制该充值帐户地址,然后**打开一个新标签页**以为该帐户充值.在向帐户充值时,请保持此页面处于打开状态,这一点很重要.如果意外关闭,您可以按照以下格式重新打开链接：**wallet.near.org/fund-create-account/YOUR_ACCOUNT.near/FUNDING_ACCOUNT_ADDRESS**
 
 ![image](/docs/assets/create-account/url-breakdown.png)
 
-> * To fund the account, have an existing NEAR account send >= 1.1 Ⓝ to the funding account address, or click on "Where can I purchase NEAR" to go to an exchange and purchase some. You will then need to provide them with the funding account address.
+> * 要向该帐户充值,请使用现有的NEAR帐户发送>=1.1Ⓝ到充值帐户地址,或单击“我在哪里可以购买NEAR"去交易所购买一些.然后,您需要向他们提供充值帐户地址.
 
 ![purchase near](/docs/assets/create-account/purchase_near.jpg)
 
-> * Once your account is funded, navigate back to the "Fund Your Account" tab you left open earlier. This page should be automatically updated notifying you that your account has been funded. To complete the process, check the box that acknowledges your one-time funding address will now be deleted and any further assets sent to this address will be lost.
+> * 一旦账户充值完成,回到您之前打开的"Fund Your Account"标签页.该页面将会自动更新,通知您的帐户已被充值.要完成此过程,请选中确认*您已了解该一次性充值地址将被删除,发送到该地址的其他资产也将丢失*.
 
 ![image](/docs/assets/create-account/account-funded.png)
 
 ---
 
-### Success!
+### 成功!
 
-> * You have now created a NEAR account on `mainnet`!
+> * 您刚刚创建了一个`mainnet`_(主网)_帐户!
 
 ![image](/docs/assets/create-account/mainnet-success.jpg)
 
-> * You should now be directed to your account dashboard where you can view your total balance, available balance, and minimum balance needed for on-chain storage costs. Also, you can view and rotate your [Access Keys](/docs/concepts/account#access-keys) by enabling _(add)_ or disabling _(delete)_ them.
+> * 现在,您应该打开帐户仪表盘,可以查看总余额,可用余额以及链上存储成本所需的最低余额.另外,您可以通过启用*(添加)*或禁用*(删除)*它们来查看和控制[访问密钥](https://docs.near.org.cn/docs/concepts/account#access-keys).
 
 ![image](/docs/assets/create-account/mainnet-wallet-dashboard.jpg)
 
-## Access Key Storage / Sign Out
+## 访问密钥存储/登出
 
-> **WARNING!** Make sure you have a recovery method enabled and working _**BEFORE**_ doing this! If you do not, you **WILL NOT** be able to recover your account!
+> **警告!**请确保您已启用恢复方法,并且在执行此操作之前可以正常使用!否则,您将**无法**恢复您的帐户!
 >
-> You'll notice that there is not a "sign out" option available with NEAR Wallet. This is due to your [access key](/docs/concepts/account#access-keys) being stored in your browser's local storage. If it is imperative that you disable the ability of your browser to access your account, open your browser's dev tools and clear the key/value line of the account you wish to remove.
+> 您会注意到,NEAR钱包没有“登出"选项.这是因为您的[访问密钥](https://docs.near.org.cn/docs/concepts/account#access-keys)存储在浏览器的本地存储中.如果您迫切需要禁止浏览器访问帐户,请打开浏览器的开发者工具,然后清除您想要登出的帐户的键/值.
 
 ![local storage access key](/docs/assets/create-account/local-storage.png)
 
-> Alternatively, if you would like to save an [access key](/docs/concepts/account#access-keys) to your hard-drive, you can use the [`near-cli`](/docs/tools/near-cli) command [`near login`](/docs/tools/near-cli#near-login).
+> 另外,如果要将[访问密钥](https://docs.near.org.cn/docs/concepts/account#access-keys)保存到硬盘,您可以使用[`near-cli`](https://docs.near.org.cn/docs/tools/near-cli)命令[`near login`](https://docs.near.org.cn/docs/tools/near-cli#near-login).
 
-## Support
-> Did something go wrong, or you need further assistance setting up your account? Head to our [#wallet-support](https://discord.gg/mGRcBpA8gN) channel in Discord.
+## 支持
+
+> 您遇到问题了吗,还是您需要进一步的帮助来设置帐户?前往Discord中的[＃wallet-support](https://discord.gg/mGRcBpA8gN)频道.

@@ -9,15 +9,15 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "concepts/new-to-near", label: "Concepts" },
-    { doc: "develop/basics/getting-started", label: "Develop" },
-    { doc: "tools/near-cli", label: "Tools" },
-    { doc: "tutorials/create-transactions", label: "Tutorials"},
+    { doc: "concepts/new-to-near", label: "概述" },
+    { doc: "develop/basics/getting-started", label: "开发" },
+    { doc: "tools/near-cli", label: "工具" },
+    { doc: "tutorials/create-transactions", label: "教程"},
     { search: true },
-    { doc: 'community/community-channels', label: 'Community' },
-    { doc: "tokens/token-custody", label: "Tokens"},
-    { doc: "validator/staking-overview", label: "Stake" },
-    { doc: "roles/integrator/exchange-integration", label: "Integrate" },
+    { doc: 'community/community-channels', label: '社区' },
+    { doc: "tokens/token-custody", label: "通证"},
+    { doc: "validator/staking-overview", label: "质押" },
+    { doc: "roles/integrator/exchange-integration", label: "集成" },
     {
       href: "https://github.com/near-china/near-china.github.io/issues",
       label: "GitHub",
@@ -161,7 +161,7 @@ const siteConfig = {
   ],
 
   // Google Analytics
-  gaTrackingId: 'UA-100373569-7',
+  gaTrackingId: 'G-BJYH0DD65K',
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -169,7 +169,7 @@ const siteConfig = {
   // Allow collapsible categories in the sidenav
   docsSideNavCollapsible: false,
 
-  editUrl: "https://github.com/near-china/near-china.github.io/tree/master/docs/",
+  editUrl: "https://github.com/near-china/near-china.github.io/tree/zh_CN/docs/",
   // No .html extensions for paths.
   cleanUrl: true,
 

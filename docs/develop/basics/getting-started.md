@@ -4,6 +4,8 @@ title: 开始
 sidebar_label: 开始
 ---
 
+> 目前,NEAR中文的翻译工作进展还很少,面对卷帙浩繁的文档,我们需要您的帮助,欢迎[Pull Request](https://github.com/near-china/near-china.github.io)!
+
 以下为在NEAR上进行开发时需使用的基本资源的简单概述.
 
 | 名称                                                   | 描述                                                                   |

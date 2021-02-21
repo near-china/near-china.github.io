@@ -1,9 +1,9 @@
 {
-  "concepts": {
-    "Overview": [
+  "概述": {
+    "总览": [
       "concepts/new-to-near"
     ],
-    "Basics": [
+    "基本": [
       "concepts/account",
       "concepts/data-storage",
       "concepts/storage-staking",
@@ -12,26 +12,25 @@
       "concepts/networks",
       "concepts/transaction"
     ],
-    "Architecture": [
+    "结构": [
       "concepts/architecture/specification",
       "concepts/architecture/papers"
     ]
   },
-  "develop": {
-    "Basics": [
+  "开发": {
+    "基本": [
       "develop/basics/getting-started",
       "develop/basics/create-account",
       "develop/basics/hackathon-startup-guide"
     ],
-    "Front-end": [
+    "前端": [
       "develop/front-end/introduction",
       "develop/front-end/dev-accounts",
       "develop/front-end/near-api-js",
       "develop/front-end/rpc"
     ],
-    "Smart Contracts": [
+    "智能合约": [
       "develop/contracts/overview",
-      
       {
         "type": "subcategory",
         "label": "AssemblyScript",
@@ -49,7 +48,7 @@
         ]
       }
     ],
-    "Running A Node": [
+    "启动节点": [
       "develop/node/running-a-node",
       "develop/node/running-a-node-windows"
     ],
@@ -69,33 +68,32 @@
       },
       {
         "type": "subcategory",
-        "label": "Examples",
+        "label": "实例",
         "ids": [
           "develop/evm/near-pet-shop"
           ]
         }
     ]
   },
-  "tools": {
-    "Tools": [
+  "工具": {
+    "工具": [
       "tools/near-cli",
       "tools/near-explorer",
       "tools/near-wallet"
     ]
   },
-  "tutorials": {
-    "General": [
+  "教程": {
+    "简述": [
       "tutorials/create-transactions",
       "tutorials/ledger",
       "tutorials/figment"
     ],
-    "Front-End": [
+    "前端": [
       "tutorials/front-end/guides",
       "tutorials/front-end/naj-examples",
       "tutorials/front-end/naj-workshop"
     ],
-    "Smart Contracts": [
-      
+    "智能合约": [
       {
         "type": "subcategory",
         "label": "AssemblyScript",
@@ -114,18 +112,18 @@
         ]
       }
     ],
-    "Videos": [
+    "视频": [
       "videos/accounts-keys",
       "videos/live-app-review",
       "videos/contract-reviews",
       "videos/collections-u128-etc"
     ]
   },
-  "stake": {
-    "Quickstart": [
+  "质押": {
+    "快速开始": [
       "validator/staking-overview"
     ],
-    "Validator": [
+    "验证节点": [
       "roles/validator/hardware",
       "validator/staking",
       "validator/keys",
@@ -137,12 +135,12 @@
       "validator/staking-faq"
     ]
   },
-  "integrate": {
-    "Integration": [
+  "集成": {
+    "集成": [
       "roles/integrator/exchange-integration",
       "roles/integrator/implicit-accounts"
     ],
-    "Understanding Errors": [
+    "了解错误": [
       "roles/integrator/errors/introduction",
       "roles/integrator/errors/error-implementation",
       "roles/integrator/token-loss"
@@ -151,19 +149,19 @@
       "roles/integrator/faq"
     ]
   },
-  "tokens": {
-    "Token Basics": [
+  "通证": {
+    "基本通证": [
       "tokens/token-custody",
       "tokens/lockup",
       "validator/delegation"
     ]
   },
-  "community": {
-    "Overview": [
+  "社区": {
+    "总览": [
       "community/community-channels",
       "community/community-faq"
     ],
-    "Contribute": [
+    "贡献": [
       "community/contribute/contribute-overview",
       "community/contribute/how-to-contribute",
       "community/contribute/contribute-nearcore",
